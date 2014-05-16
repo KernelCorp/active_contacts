@@ -1,0 +1,10 @@
+Description:
+    Generates model for contacts and registers it in Active Admin
+
+Example:
+    rails generate install Contacts
+
+    This will create:
+        app/model/contacts.rb
+        db/migration/create_contacts.rb
+        app/admin/contacts.rb
