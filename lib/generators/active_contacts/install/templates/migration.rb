@@ -1,6 +1,6 @@
-class CreateActiveContacts<%= name %> < ActiveRecord::Migration
+class CreateActiveContactsContact < ActiveRecord::Migration
   def change
-    create_table :active_contacts_<%= name.underscore.to_sym %> do |t|
+    create_table :active_contacts_contact do |t|
       t.string :name
       t.string :alias
       t.string :value

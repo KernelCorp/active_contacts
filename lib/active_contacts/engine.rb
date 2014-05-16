@@ -1,5 +1,5 @@
 module ActiveContacts
   class Engine < Rails::Engine
-    # engine_name 'active_contacts'
+    isolate_namespace ActiveContacts
   end
 end
